@@ -69,9 +69,8 @@ function Form (props) {
 
           <div className="errors">
             <div>{errors.name}</div>
-            <div>{errors.email}</div>
-            <div>{errors.password}</div>
-            <div>{errors.terms}</div>
+            <div>{errors.title}</div>
+            <div>{errors.post}</div>
           </div>
 
 
