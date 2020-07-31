@@ -1,0 +1,73 @@
+html {
+  text-align: center;
+  font-family: "cursive";
+  background-image: url('https://res.cloudinary.com/staseface/image/upload/c_scale,w_1600/v1508093852/2UiWkCi7TAKfuSlY5L9g_IMG_3579_sfyqqf.jpg');
+background-attachment: fixed;
+}
+
+
+
+
+.form-wrapper{
+  border: 1px solid rgb(72, 124, 148);
+  background-color: rgb(72, 124, 148);
+  margin: 30px auto;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 60%;
+  justify-content: space-evenly;
+  padding: 2%;
+}
+input {
+  margin-top: 20px;
+  padding:1%;
+  height: 40px;
+  width: 350px;
+background-color: rgb(197, 190, 190);
+  border: none;
+}
+
+button {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #7511a3;
+  border: none;
+  color: #dd91fd;
+  font-size: 1.6rem;
+  
+}
+#postButton{
+  width: 20%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  color: rgb(0, 89, 255);
+  font-size: 1.6rem;
+}
+#postButton:hover{
+  opacity: 0.7;
+}
+
+#homeButton{
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  color: rgb(0, 89, 255);
+  font-size: 1.6rem;
+}
+
+
+
+label{
+  color: #dd91fd;
+  
+}
+#avatar{
+  width: 150px;
+  height: 150px;
+}
+
